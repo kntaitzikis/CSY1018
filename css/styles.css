@@ -1,3 +1,6 @@
+html { /*smooth scrolling effect*/
+	scroll-behavior: smooth;
+}
 body { /*setting body with column layout and background color*/
     background-color: rgb(45, 45, 90);
     display: flex;
