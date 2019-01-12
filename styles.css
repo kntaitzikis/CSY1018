@@ -1,0 +1,290 @@
+body { /*setting body with column layout and background color*/
+    background-color: rgb(45, 45, 90);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+header { /*styling main header*/
+    color: rgb(255, 145, 0);
+    text-shadow: 2px 2px black;
+    font-size: 40px;
+    text-align: center;    
+	font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+h2 { /*styling all h2 headings*/
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h2 a:visited { /*setting color for the h2 visited links*/
+    text-decoration: none;
+    color:rgb(45, 45, 90);
+}
+h2 a:hover { /*hover effect for h2 links*/
+    color: rgb(255, 145, 0);
+    transition-duration: 0.2s;
+}
+h3 { /*styling all h3 headings*/
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+img { /*styling images*/
+    height: auto;
+    border-style: solid;
+}
+img:hover { /*hover effect for images*/
+    position: relative; 
+    top: -1px;
+    box-shadow: 0 0 4px 4px rgb(255, 145, 0);
+    cursor: pointer;
+}
+ li a:hover { /*hover effect for list item links*/
+    text-decoration: none;
+    background-color: rgb(255, 145, 0);
+    color:rgb(255, 255, 255);
+}
+ul { /*styling menu list*/
+    padding: 0;
+    font-size: 26px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0);
+    list-style: none;  
+}
+ul li{ /*setting list items into one line*/
+    display: inline-block;    
+}
+li a { /*styling the link field of the list items*/
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    padding: 16px 80px;
+    transition-duration: 0.4s;
+    border-radius: 1px; 
+}
+i { /*setting size for github icon*/
+    font-size: 80px;
+    position: relative;
+    bottom: 10px;
+}
+a i { /*setting default link color*/
+    color: rgb(255, 255, 255);
+}
+a i:hover { /*setting hover color*/
+    color: rgb(255, 145, 0);
+} 
+.selected a{ /*setting a specific color for the currently selected page*/
+    color: rgb(255, 145, 0);
+}
+.home-container { /*styling home page container*/
+    width: 1000px;
+    height: auto;
+    background-color: rgb(225, 240, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 1px;
+    border-style: groove;
+    margin: auto;
+    margin-bottom: 22px;
+    margin-top: 22px;
+    text-align: justify;
+    text-indent: 30px;
+}
+.reviews-container { /*styling reviews page container*/
+    width: 1000px;
+    height: auto;
+    background-color: rgb(225, 240, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 1px;
+    border-style: groove;
+    margin: auto;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    text-align: center;
+}
+.reviews-container .p-text { /*setting justified paragraph text for reviews page*/
+    text-align: justify;
+    text-indent: 30px;
+}
+.glossary-container { /*styling glossary page container*/
+    width: 920px;
+    height: auto;
+    background-color: rgb(225, 240, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 1px;
+    border-style: groove;
+    margin: auto;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    text-align: center;
+}
+.glossary-text { /*styling text of glossary page*/
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 140px;
+    line-height: 1.6;
+}
+.jobs-container { /*styling jobs page container*/
+    width: 1600px;
+    height: auto;
+    display: flex;
+    background-color: rgb(225, 240, 255);
+    color: rgb(0, 0, 0);
+    margin: auto;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    text-align: justify;
+    
+}
+.jobs-container .p-text { /*styling paragraph text jobs container*/
+    text-indent: 30px;
+}
+.left { /*styling left side container*/
+    height: auto;
+    width: 50%;
+    border-style: groove;
+    border-radius: 1px;
+}
+.right { /*styling right side container*/
+    height: auto;
+    width: 50%;
+    border-style: groove;
+    border-radius: 1px;
+}
+.references { /*styling references bar*/
+    width: 1200px;
+    height: auto;
+    align-self: center;
+    background-color: rgb(225, 240, 255);
+    color: rgb(0, 0, 0);
+    border-style: groove;
+    border-radius: 1px;
+    text-align: justify;
+}
+.tutorials-container { /*styling tutorials page container*/
+    width: 810px;
+    height: auto;
+    background-color: rgb(225, 240, 255);
+    color: rgb(0, 0, 0);
+    border-style: groove;
+    margin: auto;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    text-align: center;
+}
+.tutorials-container .p-text { /*setting justified paragraph text for tutorials page*/ 
+    text-align: justify;
+}
+.p-text { /*styling text of paragraph*/
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 80px;
+    line-height: 1.6;
+    word-spacing: 2px;
+}
+.name-date { /*styling specific text*/
+    text-align: right;
+    font-size: 20px;
+    font-family: 'Charm', cursive;
+    padding-right: 60px; 
+}
+.p-text a:hover { /*hover effect for the links of p-text class*/
+    color: rgb(255, 145, 0);
+}
+.footer-bar { /*styling footer bar*/
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 320px;       
+}
+.footer-info { /*styling footer's info text*/
+    position: relative;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 18px;
+    margin-top: auto;
+    padding-top: 10px;
+}
+.copyright { /*styling copyright text*/
+    position: relative;
+    text-align: right;
+    padding-right: 15px;
+    font-size: 10px;
+}
+@media screen and (max-width: 500px) { /* media query for devices with screen up to 500px max width*/
+    header { /*reducing header font size*/
+      font-size: 18px;
+    }
+    li a{ /*changing menu button size*/
+        padding: 22px 20px;
+        font-size: 8px;
+    }
+    .home-container, .reviews-container, .glossary-container, .jobs-container, .tutorials-container { /*setting same width for containers*/
+        width: 90%;
+    }
+    img { /*setting same width for images*/
+        width: 90%;
+    }
+    .references { /*setting width for references bar*/
+        width: 90%;
+    }
+    .p-text, .glossary-text { /*reducing font size and padding*/
+        font-size: 14px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .left .p-text, .right .p-text { /*reducing font size and padding for jobs page paragraphs*/
+        font-size: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .footer-info { /*reducing font size for footer*/
+        font-size: 10px;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 1500px) { /*media query for devices with screen between 500px and 1500px width*/
+    header { /*reducing header font size*/
+      font-size: 24px;
+    }
+    li a { /*changing menu button size*/
+        padding: 18px 30px;
+        font-size: 13px;
+    }
+    .home-container, .reviews-container, .glossary-container, .jobs-container, .tutorials-container { /*setting same width for containers*/
+        width: 90%;
+    }
+    img { /*setting same width for images*/
+        width: 90%;
+    }
+    .references { /*setting width for references bar*/
+        width: 90%;
+    }
+    .p-text, .glossary-text { /*reducing font size and padding*/
+        font-size: 18px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .left .p-text, .right .p-text { /*reducing padding for jobs page paragraphs*/
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .footer-info { /*reducing font size for footer*/
+        font-size: 14px;
+    }    
+}
