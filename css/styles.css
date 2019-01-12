@@ -98,6 +98,9 @@ a i:hover { /*setting hover color*/
     text-align: justify;
     text-indent: 30px;
 }
+.home-container .p-text { /*adding indentation*/
+    text-indent: 30px;
+}
 .reviews-container { /*styling reviews page container*/
     width: 1000px;
     height: auto;
