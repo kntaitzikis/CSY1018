@@ -93,8 +93,8 @@ a i:hover { /*setting hover color*/
     border-radius: 1px;
     border-style: groove;
     margin: auto;
-    margin-bottom: 22px;
-    margin-top: 22px;
+    margin-bottom: 16px;
+    margin-top: 16px;
     text-align: justify;
 }
 .home-container .p-text { /*adding indentation*/
